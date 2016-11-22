@@ -20,21 +20,21 @@ var main = function(){
     $('.nav li').removeClass('active');
     $(this).addClass('active');
 
-    if (category === "nav-consumer") {
+    if (category === "nav-js") {
       $(".thumbnail").removeClass("selected");
-      $(".consumer").addClass("selected");
+      $(".js").addClass("selected");
     } 
-    	else if (category === "nav-mobile") {
+    	else if (category === "nav-ang") {
       $(".thumbnail").removeClass("selected");
-      $(".mobile").addClass("selected");
+      $(".ang").addClass("selected");
     } 
-    	else if (category === "nav-commerce") {
+    	else if (category === "nav-design") {
       $(".thumbnail").removeClass("selected");
-      $(".commerce").addClass("selected");
+      $(".design").addClass("selected");
     } 
-    	else if (category === "nav-enterprise") {
+    	else if (category === "nav-webop") {
       $(".thumbnail").removeClass("selected");
-      $(".enterprise").addClass("selected");
+      $(".webop").addClass("selected");
     } 
     	else if (category === "nav-all") {
       $(".thumbnail").removeClass("selected");

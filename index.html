@@ -2,8 +2,7 @@
     <head>
         <title>Eric Bezanson Portfolio</title>
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/remodal-default-theme.css">
-        <link rel="stylesheet" href="css/remodal.css">
+        <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
         <link rel="stylesheet" type="text/css" href="css/style.css">
     </head>        
     <body>
@@ -16,18 +15,6 @@
                             <h2>Web Developer</h2>
                             <img id="navbtn" src="img/menuIcon.svg" height="50px" width="50px" alt="">
                             <p>click me</p>
-                            <div class="remodal" data-remodal-id="modal"
-  data-remodal-options="hashTracking: false, closeOnOutsideClick: false">
-
-  <button data-remodal-action="close" class="remodal-close">REMODAL</button>
-  <h1>Remodal</h1>
-  <p>
-    Responsive, lightweight, fast, synchronized with CSS animations, fully customizable modal window plugin with declarative configuration and hash tracking.
-  </p>
-  <br>
-  <button data-remodal-action="cancel" class="remodal-cancel">Cancel</button>
-  <button data-remodal-action="confirm" class="remodal-confirm">OK</button>
-</div>
                         </div>
                     </div>
                 </div>
@@ -65,10 +52,10 @@
             
             <ul class="nav nav-pills" id="all">
               <li class="nav-all active">All</li>
-              <li class="nav-consumer">Design</li>
-              <li class="nav-mobile">JavaScript</li>
-              <li class="nav-commerce">Angular</li>
-              <li class="nav-enterprise">Web Op</li>
+              <li class="nav-design">Design</li>
+              <li class="nav-js">JavaScript</li>
+              <li class="nav-ang">Angular</li>
+              <li class="nav-webop">Web Op</li>
             </ul>
             
           </div>
@@ -80,105 +67,61 @@
         
         <div class="row">
           <div class="col-md-4">
-            <a class="consumer thumbnail">
-              <img src="https://s3.amazonaws.com/codecademy-content/projects/2/armando-perez/p1.jpg">
+            <a href="img/Froggerbig.jpg" data-lightbox="js" data-title="A remake of the classic game FROGGER using JavaScript" class="js thumbnail">
+              <img src="img/froggerthumb.jpg">
             </a>
           </div>
           <div class="col-md-4">
-            <a class="enterprise thumbnail">
-              <img src="https://s3.amazonaws.com/codecademy-content/projects/2/armando-perez/p2.jpg">
+            <a href="img/sassdemoBIG.jpg" data-lightbox="design" data-title="A homepage designed using various sass effects" class="design thumbnail">
+              <img src="img/sassdemoThumb.jpg">
             </a>
           </div>
           <div class="col-md-4">
-            <a class="consumer thumbnail">
-              <img src="https://s3.amazonaws.com/codecademy-content/projects/2/armando-perez/p3.jpg">
-            </a>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-4">
-            <a class="commerce thumbnail">
-              <img src="https://s3.amazonaws.com/codecademy-content/projects/2/armando-perez/p4.jpg">
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a class="enterprise thumbnail">
-              <img src="https://s3.amazonaws.com/codecademy-content/projects/2/armando-perez/p5.jpg">
-            </a>
-          </div>
-          <div class="col-md-4">
-            <a class="mobile thumbnail">
-              <img src="https://s3.amazonaws.com/codecademy-content/projects/2/armando-perez/p6.jpg">
+            <a href="http://placehold.it/600x600" data-lightbox="ang" data-title="Project Under Construction" class="ang thumbnail">
+              <img src="http://placehold.it/192x192">
             </a>
           </div>
         </div>
 
         <div class="row">
           <div class="col-md-4">
-            <a class="mobile thumbnail">
-              <img src="https://s3.amazonaws.com/codecademy-content/projects/2/armando-perez/p7.jpg">
+            <a href="img/movedesignbig.jpg" data-lightbox="design" data-title="A homepage design for a fake company focusing on use of color and modern layout principles."class="design thumbnail">
+              <img src="img/movedesignthumb.jpg">
             </a>
           </div>
           <div class="col-md-4">
-            <a class="commerce thumbnail">
-              <img src="https://s3.amazonaws.com/codecademy-content/projects/2/armando-perez/p8.jpg">
+           <a href="http://placehold.it/600x600" data-lightbox="ang" data-title="Project Under Construction" class="ang thumbnail">
+              <img src="http://placehold.it/192x192"> 
             </a>
           </div>
           <div class="col-md-4">
-            <a class="mobile thumbnail">
-              <img src="https://s3.amazonaws.com/codecademy-content/projects/2/armando-perez/p9.jpg">
+            <a href="http://placehold.it/600x600" data-lightbox="js" data-title="Project Under Construction" class="js thumbnail">
+              <img src="http://placehold.it/192x192">
+            </a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4">
+            <a href="http://placehold.it/600x600" data-lightbox="ang" data-title="Project Under Construction" class="ang thumbnail">
+              <img src="http://placehold.it/192x192">
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="http://placehold.it/600x600" data-lightbox="js" data-title="Project Under Construction" class="js thumbnail">
+              <img src="http://placehold.it/192x192">
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="img/pizzabig.jpg" data-lightbox="webop" data-title="taking a poorly optimized website and making it run at 60fps / achieve 90+ scores on PageSpeed Insights"class="webop thumbnail">
+              <img src="img/pizzathumb.jpg">
             </a>
           </div>
         </div>
       </div>
     </div>
-    <!--
-        <div class="supporting-1">
-            <div class="container">
-      	        <div class="row">
-        	        <div class="col-md-6">
-        		        <img src="http://placehold.it/450x350" width="450" height="300"> 
-        	        </div>
-        	        <div class="col-md-6">
-          	            <h2>Music Just for You</h2>
-          	            <p>Listen to your favorite artists and albums, and make playlists of your favorite songs. Get recommendations based on your tastes to discover new music.</p>
-        	        </div>
-      	        </div>
-    	    </div>
-        </div>
-    
-        <div class="supporting-2">
-            <div class="container">
-      	        <div class="row">
-                <div class="col-md-6">
-          	        <h2>Listen Everywhere</h2>
-          	        <p>Take your music with you everywhere you go. Listen for free for free on any device - mobile, tablet, and your computer.</p>
-                </div>  
-        	        <div class="col-md-6">
-        		        <img src="http://placehold.it/450x350" width="450" height="300"> 
-        	        </div>
-      	        </div>
-    	    </div>
-        </div>
-    
-        <div class="supporting-3">
-            <div class="container">
-      	        <div class="row">
-        	        <div class="col-md-6">
-        		        <img src="http://placehold.it/450x350" width="450" height="300"> 
-        	        </div>
-        	        <div class="col-md-6">
-          	            <h2>Connect With Others</h2>
-          	            <p>Find the right songs for the right occassions. Let your friends know what you're listening to, and connect with others who share the music you love.</p>
-        	        </div>
-      	        </div>
-    	    </div>
-        </div>
-        -->
-    
-        <div class="break"></div>
-        <div class="footer">
+    <div class="break"></div>
+    <div class="footer">
         <div class="container">
             
             <div class="col-md-2">
@@ -197,6 +140,7 @@
                 <h3>Facebook</h3>
                 <a href="https://www.facebook.com/eric.bezanson"></a><img src="http://placehold.it/50x50" alt="">
             </div>
+
         </div>
         <div class="pull-right">
           <p>Eric Bezanson, 2016 &copy</p>
@@ -204,6 +148,6 @@
     </div>
     <script src="https://s3.amazonaws.com/codecademy-content/projects/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-    <script type="text/javascript"src="js/remodal.js"></script>
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
 </body>

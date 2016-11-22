@@ -3,8 +3,12 @@ body {
      letter-spacing: 1px;
      line-height: 30px;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
 .jumbotron {
-    background-image: url(../img/heroImg.jpg);
+    background-image: url(../img/heroImgOp.jpg);
     background-size: cover;
     height: 860px;
     color: #FFF;
@@ -66,6 +70,10 @@ SUPPORTING
   background: #161718;
   padding: 40px 0px;
 }
+.main a {
+  height: 200px;
+  width: 200px;
+}
 .nav li {
   padding: 20px 30px 0px 20px;
   cursor: pointer;
@@ -76,6 +84,7 @@ SUPPORTING
 .nav-all {
   border-bottom: 4px solid red;
 }
+
 .thumbnail {
   width: 100%;
   display: block;
@@ -94,25 +103,6 @@ SUPPORTING
 .selected {
   border: 10px solid red;
 }
-/*
-.supporting-1, .supporting-2, .supporting-3, .supporting-4 {
-  padding: 70px 30px;
-  color: #FFF;
+.selected:hover {
+  border: 10px solid red;
 }
-.supporting-1 h2, .supporting-2 h2, .supporting-3 h2, .supporting-4 h2 {
-  color:#6a6c70;
-}
-.supporting-1 {
-	background-color: #161718;
-}
-.supporting-2 {
-  background-color: #000;
-}
-.supporting-3 {
-  background-color: #161718;
-}
-
-.supporting-4 h2, .supporting-4 img {
-  padding-bottom: 10px;
-}
-*/
